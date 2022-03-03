@@ -43,7 +43,7 @@ export default function Validate() {
     return (
         <div className='row'>
             <div className={styles.card}>
-                <div class="card-body">
+                <div classNmae="card-body">
                     <h3 style={{ textAlign: 'center' }}>Join 1000 people who took <br></br>the free introduction in the last week</h3>
                     <form onSubmit={handleSubmit(myfun)} style={{textAlign: 'center'}}>
                         <div className="form-group">
